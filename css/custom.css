@@ -26,7 +26,7 @@ a#site-name {
 }
 
 #web_bg {
-  background: linear-gradient(
+  /* background: linear-gradient(
     90deg,
     rgba(247, 149, 51, 0.1),
     rgba(243, 112, 85, 0.1) 15%,
@@ -36,25 +36,52 @@ a#site-name {
     rgba(16, 152, 173, 0.1) 72%,
     rgba(7, 179, 155, 0.1) 86%,
     rgba(109, 186, 130, 0.1)
-  );
+  ); */
 }
 
 #footer {
-  background: rgba(255, 255, 255, 0.15);
-  color: #000;
-  border-top-right-radius: 20px;
-  border-top-left-radius: 20px;
-  backdrop-filter: saturate(100%) blur(5px);
+  color: #fff;
+  /* border-top-right-radius: 20px; */
+  /* border-top-left-radius: 20px; */
+  /* backdrop-filter: saturate(100%) blur(5px); */
 }
 
 #footer::before {
-  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
 }
 
 #footer #footer-wrap {
   color: var(--font-color);
+  color: #fff;
 }
 
 #footer #footer-wrap a {
   color: var(--font-color);
+  color: #fff;
+}
+
+#recent-posts > .recent-post-item,
+.layout_page > div:first-child:not(.recent-posts),
+.layout_post > #page,
+.layout_post > #post,
+.read-mode .layout_post > #post {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+#aside-content .card-widget {
+  /* background: var(--light_bg_color); */
+  background-color: rgba(255, 255, 255, 0.9);
+  /* background: #fff; */
+}
+
+.menus_item {
+  color: #fff;
+}
+
+#nav a {
+  color: black;
+}
+
+#page-header #site-title {
+  color: black;
 }
